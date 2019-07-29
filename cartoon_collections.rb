@@ -26,5 +26,9 @@ def find_the_cheese(value)
       cheese_name = value
     end
   end
-  cheese_name
+  if cheese_name
+    cheese_name
+  else
+    nil
+  end
 end
