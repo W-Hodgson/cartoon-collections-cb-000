@@ -20,4 +20,7 @@ end
 
 def find_the_cheese(value)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types.include? do |cheese|
+    cheese == value
+  end
 end
