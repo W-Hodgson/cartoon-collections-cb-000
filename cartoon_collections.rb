@@ -20,11 +20,11 @@ end
 
 def find_the_cheese(value)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_name = ''
+  cheese_name 
   cheese_types.each do |cheese|
     if cheese == value
       cheese_name = value
     end
   end
-  return nil
+  cheese_name
 end
