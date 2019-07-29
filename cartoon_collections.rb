@@ -23,7 +23,7 @@ def find_the_cheese(value)
   cheese_name = ''
   cheese_types.each do |cheese|
     if cheese == value
-      return value
+      cheese_name = value
     end
   end
   return nil
